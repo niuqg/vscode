@@ -1,0 +1,17 @@
+
+=== Resource Usage Analysis ===
+Duration: 5 seconds
+
+[CPU Usage]
+  Max: 1.0%
+  Avg: 0.8%
+
+[Memory Usage]
+  Max Used: 33688.7 MB (17.5% of Total)
+  Avg Used: 33688.7 MB
+
+[Swap Usage]
+  Max Swap: 0.0 KB
+
+[Recommendations]
+- CPU underutilized (< 50% Max). Build might be I/O bound or single-threaded.

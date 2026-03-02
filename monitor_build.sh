@@ -138,4 +138,4 @@ END {
         print "No valid data collected in log file.";
     }
 }
-' "$LOG_FILE"
+' "$LOG_FILE" | tee "resource_summary.txt"
