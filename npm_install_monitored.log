@@ -1,0 +1,20 @@
+(node:2586) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 1555 packages in 1s
+
+206 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (11 moderate, 13 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
