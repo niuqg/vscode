@@ -3,6 +3,41 @@
 [![Bugs](https://img.shields.io/github/issues/microsoft/vscode/bug.svg)](https://github.com/microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 [![Gitter](https://img.shields.io/badge/chat-on%20gitter-yellow.svg)](https://gitter.im/Microsoft/vscode)
 
+## 快速开始（Trae / Sandbox）
+
+以下步骤适用于在远程开发环境中快速启动与验证构建流程（Node 版本见 [.nvmrc](.nvmrc)）。
+
+```bash
+npm ci
+npm run compile
+./scripts/code.sh
+```
+
+在无 GUI 的环境中，通常更适合运行 Web 版本：
+
+```bash
+./scripts/code-web.sh
+```
+
+或者启动本地服务端模式：
+
+```bash
+./scripts/code-server.sh
+```
+
+如果你只需要提供一个静态目录预览（例如验证产物或查看文件列表）：
+
+```bash
+python3 -m http.server 8000
+```
+
+然后在浏览器中打开 `http://localhost:8000`。
+
+常见问题：
+
+- 如果脚本没有可执行权限，可以用 `bash ./scripts/code.sh`（或对应的脚本）启动。
+- 如果 `8000` 端口被占用，把命令里的端口换成其他值，例如 `python3 -m http.server 8001`。
+
 ## The Repository
 
 This repository ("`Code - OSS`") is where we (Microsoft) develop the [Visual Studio Code](https://code.visualstudio.com) product together with the community. Not only do we work on code and issues here, we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly iteration plans](https://github.com/microsoft/vscode/wiki/Iteration-Plans), and our [endgame plans](https://github.com/microsoft/vscode/wiki/Running-the-Endgame). This source code is available to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
