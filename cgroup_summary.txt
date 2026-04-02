@@ -1,0 +1,16 @@
+
+=== Container Resource Analysis (CGroup) ===
+Duration: 11 seconds
+
+[CPU Usage]
+  Max Cores Used: 1.99
+  Avg Cores Used: 1.88
+
+[Memory Usage]
+  Max Memory: 3624.35 MB
+  Avg Memory: 2603.13 MB
+
+[Swap Usage]
+  Max Swap: 0.00 MB
+
+[Recommendations]
